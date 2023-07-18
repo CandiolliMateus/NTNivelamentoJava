@@ -1,0 +1,35 @@
+Nome: Pedro
+Frequência: 99
+Média: 8,50
+Situação: Aprovado.
+
+Nome: Julia
+Frequência: 50
+Média: 8,40
+Situação: Reprovado.
+
+Nome: Marcos
+Frequência: 100
+Média: 4,25
+Situação: Recuperação.
+
+Nome: Ana
+Frequência: 90
+Média: 6,75
+Situação: Recuperação.
+
+Nome: Carolina
+Frequência: 85
+Média: 8,20
+Situação: Aprovado.
+
+Nome: Alexandre
+Frequência: 95
+Média: 7,75
+Situação: Aprovado.
+
+Nome: Josias
+Frequência: 72
+Média: 8,25
+Situação: Aprovado.
+
