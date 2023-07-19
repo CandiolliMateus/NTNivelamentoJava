@@ -33,3 +33,8 @@ Frequência: 72
 Média: 8,25
 Situação: Aprovado.
 
+Nome: Silas
+Frequência: 69
+Média: 8,83
+Situação: Reprovado.
+
