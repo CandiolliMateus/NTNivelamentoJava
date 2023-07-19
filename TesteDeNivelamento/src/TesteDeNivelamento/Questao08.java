@@ -52,18 +52,23 @@ public class Questao08 {
 	public static List<List<String>> MatrizAlunos(String file) {
 		
 		List<List<String>> dados = new ArrayList<>();
-
-		try (BufferedReader br = new BufferedReader(new FileReader("Estudantes.txt"))) {
-			String line;
-			while ((line = br.readLine()) != null) {
-				String[] parts = line.split(";");
-				List<String> rowData = new ArrayList<>();
-				for (String part : parts) {
-					rowData.add(part);
+		
+		try {
+			
+			@SuppressWarnings("resource")
+			BufferedReader br = new BufferedReader(new FileReader("Estudantes.txt"));
+			String linhaDoArquivo;
+			
+			while ((linhaDoArquivo = br.readLine()) != null) {
+				
+				String[] particionar = linhaDoArquivo.split(";");
+				List<String> dadosDaLinha = new ArrayList<>();
+				for (String partes : particionar) {
+					dadosDaLinha.add(partes);
 				}
-				dados.add(rowData);
+				dados.add(dadosDaLinha);
 			}
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return dados;
