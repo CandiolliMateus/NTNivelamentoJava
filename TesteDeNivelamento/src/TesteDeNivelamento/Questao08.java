@@ -56,7 +56,7 @@ public class Questao08 {
 		try {
 			
 			@SuppressWarnings("resource")
-			BufferedReader br = new BufferedReader(new FileReader("Estudantes.txt"));
+			BufferedReader br = new BufferedReader(new FileReader(file));
 			String linhaDoArquivo;
 			
 			while ((linhaDoArquivo = br.readLine()) != null) {
